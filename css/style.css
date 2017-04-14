@@ -1,0 +1,334 @@
+/* ------------------------------
+global styles
+------------------------------ */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background-image: url(bg-2.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	}
+
+a:link { color: #000099; }
+a:visited { color: #000099; }
+a:focus {  color: #000099; }
+a:hover { color: #000099; }
+a:active { color: #000099; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em; }
+
+h2 {
+	color: #B52C07;
+	font: 140% georgia, times, "times new roman", serif;
+	}
+
+h2 a { text-decoration: none; }
+
+h3 {
+	color: #7d8206;
+	font: 110% georgia, times, "times new roman", serif;
+	}
+
+/* ------------------------------
+container styles
+------------------------------ */
+
+#container {
+	width: 850px;
+	text-align: left;
+	border: 0px none #676767;
+	height: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	background-color: #fff;
+	}
+
+/* ------------------------------
+header styles
+------------------------------ */
+
+#header {
+	height: auto;
+	width: auto;
+	position: relative;
+	background: url(header.jpg) no-repeat 0 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	}
+
+#header h1 {
+	position: absolute;
+	left: -500em;
+	}
+
+/* ------------------------------
+mainnav styles
+------------------------------ */
+
+#mainnav {
+	color: #FFFFFF;
+	margin-bottom: 22px;
+	background-color: #0099FF;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 25%;
+	}
+
+#mainnav ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+	}
+
+#mainnav li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #C4C769;
+	}
+
+#mainnav li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+#mainnav li a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+	}
+
+/* ------------------------------
+menu styles
+------------------------------ */
+
+#menu {
+	float: right;
+	width: auto;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #0099FF;
+	margin-right: 20px;
+	}
+
+#menu ul {
+	margin: 1em 0;
+	padding: 0;
+	}
+
+#menu ul li {
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+	}
+
+/* ------------------------------
+contents styles
+------------------------------ */
+
+#contents {
+	float: left;
+	width: 560px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 22px;
+	}
+
+#contents p { line-height: 165%; }
+.blogentry { border-bottom: 1px solid #C5C877; }
+
+.blogentry ul {
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+	}
+
+.blogentry li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+		}
+
+.imagefloat {
+	float: right;
+	padding: 2px;
+	border: 1px solid #9FA41D;
+	margin: 0 0 10px 10px;
+	}
+
+/* ------------------------------
+footer styles
+------------------------------ */
+
+#footer {
+	clear: both;
+	color: #FFFFFF;
+	text-align: right;
+	font-size: 90%;
+	margin: 0px;
+	padding: 5px;
+	background-color: #0099FF;
+	}
+body {
+	background-color: #ffffff;
+
+/* for pull-down menu to work in IE6*/
+behavior:url("csshover2.htc");
+
+}
+
+/* pull-down mainmenu css */
+.mainmenu{
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	color:#FFFFFF;
+	background: #0099FF;
+	padding: 0;
+	border: solid #0099FF;
+	border-width: 1px 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 1em;
+	line-height: 0px;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:underline;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-right: 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width: 1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: #0099FF;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: #0099FF;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#FFFFFF;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#FFFFFF;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #000080;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #FFFFFF; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #FFFFFF;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #FFFFFF;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #FFFFFF;
+}
